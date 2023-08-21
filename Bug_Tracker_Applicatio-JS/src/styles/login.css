@@ -1,0 +1,36 @@
+.form-control:focus {
+    outline: none !important;
+    border-color: #FF5364 !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 83, 100, 0.25) !important;
+}
+
+.already-have-account-text, .no-account-text {
+    color: #FF5364;
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 10%;
+}
+
+.red-square {
+    width: 40%;
+    height: 50%;
+    background-color: #FF9DA7;
+}
+
+.grey-square {
+    width: 40%;
+    height: 50%;
+    background-color: #F5F5F5;
+}
+
+.bug-logo {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
