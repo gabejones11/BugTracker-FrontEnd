@@ -1,0 +1,9 @@
+.issueContainer {
+    -ms-text-overflow: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.issueContainer::-webkit-scrollbar {
+    display: none;
+}
